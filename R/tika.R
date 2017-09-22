@@ -1,16 +1,16 @@
 
-#' Apache tika parser to xml in R
+#' Apache tika parser to html in R
 #'
 #' @param file file path
 #' @importFrom rJava .jinit
 #' @importFrom rJava .jaddClassPath
 #' @importFrom rJava .jnew
-#' @return xml
+#' @return html
 #' @export
 #'
 #' @examples
 #' \dontrun{
-#' tika_parse_to_xml("presentation.pptx")
+#' tika_parse_to_html("presentation.pptx")
 #' }
 
 tika_parse_to_xml <- function(file){

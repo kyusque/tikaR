@@ -2,7 +2,7 @@
 % Please edit documentation in R/tika.R
 \name{tika_parse_to_xml}
 \alias{tika_parse_to_xml}
-\title{Apache tika parser to xml in R}
+\title{Apache tika parser to html in R}
 \usage{
 tika_parse_to_xml(file)
 }
@@ -10,13 +10,13 @@ tika_parse_to_xml(file)
 \item{file}{file path}
 }
 \value{
-xml
+html
 }
 \description{
-Apache tika parser to xml in R
+Apache tika parser to html in R
 }
 \examples{
 \dontrun{
-tika_parse_to_xml("presentation.pptx")
+tika_parse_to_html("presentation.pptx")
 }
 }
