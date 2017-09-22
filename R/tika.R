@@ -13,7 +13,7 @@
 #' tika_parse_to_html("presentation.pptx")
 #' }
 
-tika_parse_to_xml <- function(file){
+tika_parse_to_html <- function(file){
     .jinit()
     .jaddClassPath("tika-app-1.16.jar")
     fileIO <- .jnew("java.io.FileInputStream",file)
