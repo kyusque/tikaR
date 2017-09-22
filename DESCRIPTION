@@ -1,0 +1,13 @@
+Package: tikaR
+Type: Package
+Title: Apache Tika Parser in R 
+Version: 0.1.0
+Author: person("Yusuke", "Kawashima", email = "kawashimayusuke113@gmail.com")
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Apache Tika interface.
+License: MIT
+Imports: rJava (>= 0.8-0)
+SystemRequirements: Java
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
