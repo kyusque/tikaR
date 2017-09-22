@@ -15,7 +15,7 @@
 
 tika_parse_to_html <- function(file){
     .jinit()
-    .jaddClassPath("tika-app-1.16.jar")
+    .jaddClassPath(system.file("tika-app-1.16.jar",package="tikaR"))
     fileIO <- .jnew("java.io.FileInputStream",file)
     parser <- .jnew("org.apache.tika.parser.AutoDetectParser")
     handler <- .jnew("org.apache.tika.sax.ToXMLContentHandler")
