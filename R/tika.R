@@ -9,8 +9,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' tika_parse_to_xml("presentation.pptx")
-#'
+#' }
 
 tika_parse_to_xml <- function(file){
     .jinit()

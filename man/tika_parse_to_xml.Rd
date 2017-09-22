@@ -16,6 +16,7 @@ xml
 Apache tika parser to xml in R
 }
 \examples{
+\dontrun{
 tika_parse_to_xml("presentation.pptx")
-
+}
 }
