@@ -23,6 +23,8 @@ tika_parse_to_html <- function(file){
     parser$parse(fileIO,handler,metadata)
 
     result <- handler$toString()
+    fileIO$close()
+
     return(iconv(result,"UTF-8","UTF-8")) # こうしないと文字化けする(Windows)。謎。 //逕ｻ髱｢縺ｫ蜷医ｏ縺帙ｋ (4:3) => 画面に合わせる (4:3)
 
 }
